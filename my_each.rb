@@ -1,4 +1,4 @@
-def my_each(array)
+def my_each(array) {puts array[i]}
   if block_given?
     i = 0 
     while i < array.length 
