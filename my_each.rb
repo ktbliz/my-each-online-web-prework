@@ -4,9 +4,9 @@ def my_each(array)
     while i < array.length 
       yield(array[i])
       i += 1 
-      array
+      return array
     end
   else
-    array
+    return array
   end
 end
