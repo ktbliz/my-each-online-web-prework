@@ -11,6 +11,9 @@ def my_each(array)
   end
   
   
+my_each(array) { }
+
+
 end
 
 def hello_t(array)
