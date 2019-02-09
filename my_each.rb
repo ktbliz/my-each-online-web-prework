@@ -6,7 +6,7 @@ def my_each(array)
       i += 1 
     end
   else
-    return array
+    "No block given"
   end
 end
 
